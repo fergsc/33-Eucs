@@ -11,7 +11,7 @@ mumDir=     # path to mummer, for use for show-snps
 
 getSNPs=0   # find SNPs & indels. 1 = yes, 0 = no
 
-if [[ getSNPs == 1 ]]
+if [[ $getSNPs == 1 ]]
 then
    python ${syriDir}/bin/syri \
       -d $delta               \
