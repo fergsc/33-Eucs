@@ -1,0 +1,12 @@
+geneLocationsDir=""
+syriOutDir=""
+
+mkdir results
+cd results
+cp $geneLocationsDir/*.csv $syriOutDir/*.out .
+
+find . -name '*.out' -exec python3 syri-genes.py {} \;
+
+rm *.csv *.out
+cd ..
+
