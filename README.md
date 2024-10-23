@@ -1,2 +1,4 @@
 # all-Eucs
-Scripts for https://doi.org/10.1101/2023.04.19.537464
+Scripts for
+- Plant genome evolution in the genus Eucalyptus is driven by structural rearrangements that promote sequence divergence
+- https://www.genome.org/cgi/doi/10.1101/gr.277999.123
